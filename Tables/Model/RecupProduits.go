@@ -3,8 +3,8 @@ package Model
 import (
 	_ "github.com/go-sql-driver/mysql"
 	"database/sql"
-	"waystocap/code/Public/Structures_Public"
-	"waystocap/code/Public/Model_Public"
+	"github.com/starboywizzy521/app/Public/Structures_Public"
+	"github.com/starboywizzy521/app/Public/Model_Public"
 )
 
 func RecupProduits() [] Structures_Public.Produits{

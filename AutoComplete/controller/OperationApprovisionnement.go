@@ -3,7 +3,7 @@ package controller
 import (
 	"net/http"
 	"encoding/json"
-	"waystocap/code/AutoComplete/Model"
+	"github.com/starboywizzy521/app/AutoComplete/Model"
 )
 
 func OperationApprovisionnement(w http.ResponseWriter,r *http.Request){

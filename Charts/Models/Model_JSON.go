@@ -3,7 +3,7 @@ package Models
 import (
 	"database/sql"
 	"encoding/json"
-	"waystocap/code/Public/Model_Public"
+	"github.com/starboywizzy521/app/Public/Model_Public"
 )
 
 type Data struct{

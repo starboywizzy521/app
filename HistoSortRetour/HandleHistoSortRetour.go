@@ -3,9 +3,9 @@ package HistoSortRetour
 import (
 	"net/http"
 	"html/template"
-	"waystocap/code/Public/Model_Public"
-	"waystocap/code/Login"
-	"waystocap/code/HistoSortRetour/Model"
+	"github.com/starboywizzy521/app/Public/Model_Public"
+	"github.com/starboywizzy521/app/Login"
+	"github.com/starboywizzy521/app/HistoSortRetour/Model"
 )
 
 func HandleSortRetour(w http.ResponseWriter,r *http.Request){

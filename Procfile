@@ -1,1 +1,1 @@
-"web: go-getting-started" 
+web: github.com/starboywizzy521/app

@@ -3,9 +3,9 @@ package HistoriqueApprovisionnement
 import (
 	"net/http"
 	"html/template"
-	"waystocap/code/HistoriqueApprovisionnement/Models"
-	"waystocap/code/Public/Model_Public"
-	"waystocap/code/Login"
+	"github.com/starboywizzy521/app/HistoriqueApprovisionnement/Models"
+	"github.com/starboywizzy521/app/Public/Model_Public"
+	"github.com/starboywizzy521/app/Login"
 )
 
 func HandleHistoAppro(w http.ResponseWriter,r *http.Request){

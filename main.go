@@ -3,20 +3,21 @@ package main
 import (
 	"net/http"
 	"log"
-	"waystocap/code/Charts/Controllers"
-	"waystocap/code/ModifierProduit/Controller"
-	"waystocap/code/Login"
-	"waystocap/code/Tables"
-	"waystocap/code/Dashboard"
-	"waystocap/code/Approvisionnement"
-	"waystocap/code/HistoriqueApprovisionnement"
-	"waystocap/code/AutoComplete/controller"
-	"waystocap/code/CreateProduct/Control"
-	"waystocap/code/Sortie"
-	"waystocap/code/SortieInstant/ControllerSortieInst"
-	"waystocap/code/SortieArticle/controllerSortieArticle"
-	"waystocap/code/HistoSortRetour"
-	"waystocap/code/Historique"
+	"github.com/starboywizzy521/app/Charts/Controllers"
+	"github.com/starboywizzy521/app/ModifierProduit/Controller"
+	"github.com/starboywizzy521/app/Login"
+	"github.com/starboywizzy521/app/Tables"
+	"github.com/starboywizzy521/app/Dashboard"
+	"github.com/starboywizzy521/app/Approvisionnement"
+	"github.com/starboywizzy521/app/HistoriqueApprovisionnement"
+	"github.com/starboywizzy521/app/AutoComplete/controller"
+	"github.com/starboywizzy521/app/CreateProduct/Control"
+	"github.com/starboywizzy521/app/Sortie"
+	"github.com/starboywizzy521/app/SortieInstant/ControllerSortieInst"
+	"github.com/starboywizzy521/app/SortieArticle/controllerSortieArticle"
+	"github.com/starboywizzy521/app/HistoSortRetour"
+	"github.com/starboywizzy521/app/Historique"
+	"os"
 )
 
 
@@ -73,7 +74,13 @@ func main() {
 
 	http.Handle("/webPages/",http.StripPrefix("/webPages",http.FileServer(http.Dir("webPages/"))))
 
-		err := http.ListenAndServe(":8080", nil) // set listen port
+	port := os.Getenv("PORT")
+
+	if port == "" {
+		port="8080"
+	}
+
+		err := http.ListenAndServe(":"+port, nil) // set listen port
 	if err != nil {
 		log.Fatal("ListenAndServe: ", err)
 	}

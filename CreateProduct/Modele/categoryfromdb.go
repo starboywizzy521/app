@@ -2,7 +2,7 @@ package Modele
 
 import (
 	"database/sql"
-	"waystocap/code/Public/Model_Public"
+	"github.com/starboywizzy521/app/Public/Model_Public"
 )
 
 type category struct{

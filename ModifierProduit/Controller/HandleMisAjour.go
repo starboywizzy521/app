@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"html/template"
 	"strconv"
-	"waystocap/code/Public/Model_Public"
-	"waystocap/code/ModifierProduit"
-	"waystocap/code/Public/Structures_Public"
+	"github.com/starboywizzy521/app/Public/Model_Public"
+	"github.com/starboywizzy521/app/ModifierProduit"
+	"github.com/starboywizzy521/app/Public/Structures_Public"
 	"strings"
 	"fmt"
 )

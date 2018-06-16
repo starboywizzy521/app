@@ -3,9 +3,9 @@ package ControllerSortieInst
 import (
 	"net/http"
 	"strconv"
-	"waystocap/code/Public/Model_Public"
-	"waystocap/code/Public/Structures_Public"
-	"waystocap/code/SortieInstant/Model"
+	"github.com/starboywizzy521/app/Public/Model_Public"
+	"github.com/starboywizzy521/app/Public/Structures_Public"
+	"github.com/starboywizzy521/app/SortieInstant/Model"
 	"fmt"
 )
 

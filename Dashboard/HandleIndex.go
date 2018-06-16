@@ -3,9 +3,9 @@ package Dashboard
 import (
 	"net/http"
 	"html/template"
-	"waystocap/code/Login"
-	"waystocap/code/Public/Model_Public"
-	"waystocap/code/Tables/Model"
+	"github.com/starboywizzy521/app/Login"
+	"github.com/starboywizzy521/app/Public/Model_Public"
+	"github.com/starboywizzy521/app/Tables/Model"
 )
 
 func HandleIndex(w http.ResponseWriter,r *http.Request){

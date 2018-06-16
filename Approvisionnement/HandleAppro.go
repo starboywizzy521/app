@@ -3,8 +3,8 @@ package Approvisionnement
 import (
 	"net/http"
 	"html/template"
-	"waystocap/code/Public/Model_Public"
-	"waystocap/code/Login"
+	"github.com/starboywizzy521/app/Public/Model_Public"
+	"github.com/starboywizzy521/app/Login"
 )
 
 func HandleAppro(w http.ResponseWriter,r *http.Request){

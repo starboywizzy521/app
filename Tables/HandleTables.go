@@ -3,9 +3,9 @@ package Tables
 import (
 	"net/http"
 	"html/template"
-	"waystocap/code/Public/Model_Public"
-	"waystocap/code/Login"
-	"waystocap/code/Tables/Model"
+	"github.com/starboywizzy521/app/Public/Model_Public"
+	"github.com/starboywizzy521/app/Login"
+	"github.com/starboywizzy521/app/Tables/Model"
 )
 
 func HandleTables(w http.ResponseWriter,r *http.Request){

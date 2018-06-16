@@ -3,9 +3,9 @@ package ControllerSortieInst
 import (
 	"net/http"
 	"html/template"
-	"waystocap/code/Public/Model_Public"
-	"waystocap/code/Login"
-	"waystocap/code/SortieInstant/Model"
+	"github.com/starboywizzy521/app/Public/Model_Public"
+	"github.com/starboywizzy521/app/Login"
+	"github.com/starboywizzy521/app/SortieInstant/Model"
 )
 
 func HandleSortieInst(w http.ResponseWriter,r *http.Request){

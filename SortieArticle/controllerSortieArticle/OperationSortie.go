@@ -2,7 +2,7 @@ package controllerSortieArticle
 
 import (
 	"net/http"
-	"waystocap/code/SortieArticle/Models"
+	"github.com/starboywizzy521/app/SortieArticle/Models"
 )
 
 func OperationSortie(w http.ResponseWriter,r *http.Request){

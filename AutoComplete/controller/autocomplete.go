@@ -3,7 +3,7 @@ package controller
 import (
 	"net/http"
 	"html/template"
-	"waystocap/code/AutoComplete/Model"
+	"github.com/starboywizzy521/app/AutoComplete/Model"
 )
 
 func HandleAutoComplete(w http.ResponseWriter,r *http.Request){

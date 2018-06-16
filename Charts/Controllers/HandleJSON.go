@@ -2,7 +2,7 @@ package Controllers
 
 import (
 	"net/http"
-	"waystocap/code/Charts/Models"
+	"github.com/starboywizzy521/app/Charts/Models"
 )
 
 func HandleJSON(w http.ResponseWriter, r *http.Request){

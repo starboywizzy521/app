@@ -4,8 +4,8 @@ import (
 	"database/sql"
 	"time"
 	"fmt"
-	"waystocap/code/Public/Structures_Public"
-	"waystocap/code/Public/Model_Public"
+	"github.com/starboywizzy521/app/Public/Structures_Public"
+	"github.com/starboywizzy521/app/Public/Model_Public"
 )
 
 func Ajout (produit Structures_Public.Produits){

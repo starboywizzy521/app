@@ -3,7 +3,7 @@ package Control
 import (
 	"net/http"
 	"html/template"
-	"waystocap/code/CreateProduct/Modele"
+	"github.com/starboywizzy521/app/CreateProduct/Modele"
 	"fmt"
 	"strings"
 )
