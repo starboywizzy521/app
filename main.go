@@ -1,4 +1,4 @@
-package main
+﻿package main
 
 import (
 	"net/http"
@@ -17,7 +17,6 @@ import (
 	"github.com/starboywizzy521/app/SortieArticle/controllerSortieArticle"
 	"github.com/starboywizzy521/app/HistoSortRetour"
 	"github.com/starboywizzy521/app/Historique"
-	"os"
 )
 
 
