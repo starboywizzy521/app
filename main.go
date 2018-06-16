@@ -74,13 +74,8 @@ func main() {
 
 	http.Handle("/webPages/",http.StripPrefix("/webPages",http.FileServer(http.Dir("webPages/"))))
 
-	port := os.Getenv("PORT")
-	if port == "" {
-		log.Fatal("port error")
-		port="8080"
-	}
 
-		err := http.ListenAndServe(":"+port, nil) // set listen port
+		err := http.ListenAndServe(":8080", nil) // set listen port
 	if err != nil {
 		log.Fatal("ListenAndServe: ", err)
 	}
