@@ -2,6 +2,9 @@
 	"ImportPath": "github.com/starboywizzy521/app",
 	"GoVersion": "go1.10",
 	"GodepVersion": "v80",
+	"Packages": [
+		"./..."
+	],
 	"Deps": [
 		{
 			"ImportPath": "github.com/go-sql-driver/mysql",

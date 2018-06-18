@@ -1,1 +1,1 @@
-web: starboywizzy521/app
+web: github.com/starboywizzy521/app
